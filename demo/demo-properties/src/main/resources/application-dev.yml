@@ -1,0 +1,7 @@
+application:
+  name: dev
+  version: V1.0
+developer:
+  name: stodger
+  website: http://stodger.dev.com
+  desc: learnsing

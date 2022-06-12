@@ -1,0 +1,7 @@
+application:
+  name: prod
+  version: V1.0
+developer:
+  name: stodger
+  website: http://stodger.prod.com
+  desc: learnsing
