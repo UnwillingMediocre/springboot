@@ -10,6 +10,7 @@
     <modules>
         <module>demo-helloworld</module>
         <module>demo-properties</module>
+        <module>demo-actuator</module>
     </modules>
     <packaging>pom</packaging>
 
