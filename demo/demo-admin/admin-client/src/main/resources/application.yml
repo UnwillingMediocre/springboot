@@ -32,4 +32,4 @@ spring:
       password: qaz1234
 logging:
   file:
-    name: 'logs/app.log'
+    name: 'logs/admin-client.log'
