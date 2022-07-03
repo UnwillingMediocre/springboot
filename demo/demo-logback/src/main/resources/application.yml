@@ -1,0 +1,7 @@
+server:
+  port: 8086
+  servlet:
+    context-path: /logback
+spring:
+  application:
+    name: demo-logback
