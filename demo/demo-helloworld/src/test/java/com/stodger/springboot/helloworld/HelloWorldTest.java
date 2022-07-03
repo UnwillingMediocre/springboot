@@ -1,4 +1,4 @@
-package com.stodger.springboot.test;
+package com.stodger.springboot.helloworld;
 
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
