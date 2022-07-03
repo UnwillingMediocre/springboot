@@ -1,13 +1,12 @@
-package com.stodger.springboot.controller;
+package com.stodger.springboot.properties.controller;
 
 import cn.hutool.core.lang.Dict;
-import com.stodger.springboot.property.ApplicationProperties;
-import com.stodger.springboot.property.ApplicationProperty;
-import com.stodger.springboot.property.DeveloperProperties;
-import com.stodger.springboot.property.DeveloperProperty;
+import com.stodger.springboot.properties.property.ApplicationProperties;
+import com.stodger.springboot.properties.property.ApplicationProperty;
+import com.stodger.springboot.properties.property.DeveloperProperties;
+import com.stodger.springboot.properties.property.DeveloperProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**

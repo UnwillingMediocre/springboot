@@ -1,4 +1,4 @@
-package com.stodger.springboot.property;
+package com.stodger.springboot.properties.property;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
