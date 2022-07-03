@@ -4,11 +4,13 @@
 
 ## Module
 
-| Module          | Name       | Remark                                                    |
-| --------------- | ---------- | --------------------------------------------------------- |
-| demo-helloworld | helloworld | helloworld                                                |
-| demo-properties | properties | 读取配置文件方式                                          |
-| demo-actuator   | actuator   | 集成spring-boot-starter-actuator，监控spring-boot运行状态 |
+| Module            | Name         | Remark                                                       |
+| ----------------- | ------------ | ------------------------------------------------------------ |
+| demo-helloworld   | helloworld   | helloworld                                                   |
+| demo-properties   | properties   | 读取配置文件方式                                             |
+| demo-actuator     | actuator     | 集成spring-boot-starter-actuator，监控spring-boot运行状态    |
+| demo-admin-cline  | admin-cline  | 可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，客户端示例 |
+| demo-admin-server | admin-server | 可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，服务端示例 |
 
 
 
