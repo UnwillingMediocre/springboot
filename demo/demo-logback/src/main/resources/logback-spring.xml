@@ -9,7 +9,7 @@
             <level>INFO</level>
         </filter>
         <encoder>
-            <pattern>${project_name}-${CONSOLE_LOG_PATTERN}</pattern>
+            <pattern>${project_name}-%X{userId}-${CONSOLE_LOG_PATTERN}</pattern>
             <charset>UTF-8</charset>
         </encoder>
     </appender>
@@ -43,7 +43,7 @@
         <!--<maxFileSize>1KB</maxFileSize>-->
         <!--</triggeringPolicy>-->
         <encoder>
-            <pattern>${project_name}-${FILE_LOG_PATTERN}</pattern>
+            <pattern>${project_name}-%X{userId}-${FILE_LOG_PATTERN}</pattern>
             <charset>UTF-8</charset> <!-- 此处设置字符集 -->
         </encoder>
     </appender>
@@ -67,7 +67,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
         <encoder>
-            <pattern>${project_name}-${FILE_ERROR_PATTERN}</pattern>
+            <pattern>${project_name}-%X{userId}-${FILE_ERROR_PATTERN}</pattern>
             <charset>UTF-8</charset> <!-- 此处设置字符集 -->
         </encoder>
     </appender>
