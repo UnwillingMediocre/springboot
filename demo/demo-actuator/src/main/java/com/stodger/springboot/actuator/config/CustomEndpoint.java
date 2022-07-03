@@ -1,13 +1,9 @@
-package com.stodger.springboot.config;
+package com.stodger.springboot.actuator.config;
 
 import org.springframework.boot.actuate.endpoint.annotation.Endpoint;
 import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
 import org.springframework.stereotype.Component;
-import sun.rmi.transport.Channel;
-import sun.rmi.transport.Target;
-import sun.rmi.transport.Transport;
 
-import java.rmi.RemoteException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
