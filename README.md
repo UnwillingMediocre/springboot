@@ -15,6 +15,7 @@
 | demo-log-aop             | log-aop             | AOP 切面的方式记录 web 请求日志                              |
 | demo-exception-handler   | exception-handler   | 统一异常处理                                                 |
 | demo-template-freemarker | template-freemarker | 集成freemarker模板引擎                                       |
+| demo-template-thymeleaf  | template-thymeleaf  | 集成thymeleaf模板引擎                                        |
 
 
 
