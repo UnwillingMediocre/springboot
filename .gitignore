@@ -34,3 +34,5 @@ build/
 .mvn
 /demo/mvnw
 /demo/mvnw.cmd
+/demo/demo-log-aop/logs
+/demo/demo-logback/logs
