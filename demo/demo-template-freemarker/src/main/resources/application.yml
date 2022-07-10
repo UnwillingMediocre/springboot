@@ -1,0 +1,9 @@
+server:
+  port: 8089
+  servlet:
+    context-path: /tf
+spring:
+  freemarker:
+    suffix: .ftl
+    cache: false
+    charset: UTF-8
