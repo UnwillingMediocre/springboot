@@ -14,5 +14,5 @@ public class Product {
 
     private String productNumber;
 
-    public String name;
+    private String name;
 }
