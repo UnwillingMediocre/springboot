@@ -17,6 +17,7 @@
 | 9    | demo-template-freemarker | 集成freemarker模板引擎                                       |
 | 10   | demo-template-thymeleaf  | 集成thymeleaf模板引擎                                        |
 | 11   | demo-template-beetl      | 集成beetl模板引擎                                            |
+| 12   | demo-template-enjoy      | 集成enjoy模板引擎                                            |
 
 
 

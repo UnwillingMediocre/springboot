@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+#include("/common/head.html",title="首页")
+    <body>
+        <div id="app" style="margin: 20px 20%">
+            欢迎登录，#(user.name)
+
+            <p>#test()</p>
+            <p>#date(date,'yyyyMMdd')</p>
+        </div>
+        
+        #for(product : productList)
+        <div>
+            #(product.productNumber)->#(product.name)
+        </div>
+        #end
+    </body>
+</html>
