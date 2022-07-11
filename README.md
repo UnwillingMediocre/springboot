@@ -16,6 +16,7 @@
 | demo-exception-handler   | exception-handler   | 统一异常处理                                                 |
 | demo-template-freemarker | template-freemarker | 集成freemarker模板引擎                                       |
 | demo-template-thymeleaf  | template-thymeleaf  | 集成thymeleaf模板引擎                                        |
+| demo-template-beetl      | template-beetl      | 集成beetl模板引擎                                            |
 
 
 
