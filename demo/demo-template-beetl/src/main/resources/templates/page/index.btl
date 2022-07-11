@@ -4,6 +4,10 @@
     <body>
         <div id="app" style="margin: 20px 20%">
             欢迎登录，${user.name}！
+            <p>${date,'yyyy/MM/dd'}</p>
+            <% for(product in productList) {%>
+                ${product.productNumber} -> ${product.name}
+            <%}%>
         </div>
     </body>
 </html>
