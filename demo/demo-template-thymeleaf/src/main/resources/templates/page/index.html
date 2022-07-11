@@ -4,6 +4,13 @@
     <body>
         <div id="app" style="margin: 20px 20%">
             欢迎登录，<span th:text="${user.name}"></span>
+
+            <p th:text="${#dates.format(date, 'yyyy-MM-dd')}"></p>
+
+            <div th:each="product:${productList}">
+                <span th:text="${product.productNumber}"></span> -> <span th:text="${product.name}"></span>
+            </div>
         </div>
+
     </body>
 </html>
