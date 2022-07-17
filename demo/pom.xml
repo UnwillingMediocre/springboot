@@ -19,6 +19,7 @@
         <module>demo-template-thymeleaf</module>
         <module>demo-template-beetl</module>
         <module>demo-template-enjoy</module>
+        <module>demo-redis</module>
     </modules>
     <packaging>pom</packaging>
 
